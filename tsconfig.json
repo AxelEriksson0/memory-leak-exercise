@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "commonjs",
+        "lib": [
+            "DOM",
+            "ES2021",
+        ],
+        "declaration": true,
+        "outDir": "dist",
+        "removeComments": false,
+        "stripInternal": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true
+    },
+    "include": ["./types/**/*.d.ts"],
+    "files": [
+        "src/script.ts"
+    ]
+}

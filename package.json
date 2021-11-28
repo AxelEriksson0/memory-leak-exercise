@@ -1,0 +1,26 @@
+{
+  "name": "memory-leak-exercise",
+  "version": "1.0.0",
+  "description": "## Resources - https://www.youtube.com/watch?v=YDU_3WdfkxA",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc && npm run build:cp-public",
+    "build:cp-public": "cp ./public/** ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelEriksson0/memory-leak-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxelEriksson0/memory-leak-exercise/issues"
+  },
+  "homepage": "https://github.com/AxelEriksson0/memory-leak-exercise#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}
